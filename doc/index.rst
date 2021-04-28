@@ -1,5 +1,9 @@
 .. _ros2_control_demos:
 
+==================
+ros2_control Demos
+==================
+
 Demos
 -----
 
