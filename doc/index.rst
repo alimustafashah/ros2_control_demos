@@ -12,5 +12,5 @@ ros2_control Demos
            :target: https://opensource.org/licenses/Apache-2.0
            
            
-     .. code-block:: shell
-        This repository provides templates for the development of `ros2_control`-enabled robots and a simple simulations to demonstrate and prove `ros2_control` concepts.
+.. code-block:: shell
+   This repository provides templates for the development of `ros2_control`-enabled robots and a simple simulations to demonstrate and prove `ros2_control` concepts.
