@@ -14,4 +14,35 @@ ros2_control Demos
 
 This repository provides templates for the development of ros2_control-enabled robots and a simple simulations to demonstrate and prove ros2_control concepts.
 
+=====
+Goals
+=====
 
+===========
+Description
+===========
+
+===========
+Quick Hints
+===========
+
+=================
+Build from source
+=================
+
+=================================
+Getting Started with ros2_control
+=================================
+
+=======================
+Starting example robots
+=======================
+
+
+==============================
+Controlles and moving hardware
+==============================
+
+======
+Result
+======
