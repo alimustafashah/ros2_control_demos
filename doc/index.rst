@@ -34,18 +34,18 @@ Build from source
 Getting Started with ros2_control
 =================================
 
-=======================
+-----------------------
 Starting example robots
-=======================
+-----------------------
 
 
-==============================
+------------------------------
 Controlles and moving hardware
-==============================
+------------------------------
 
-======
+------
 Result
-======
+------
 Independently from the controller you should see how the example's output changes. Look for the following lines
 
    .. code-block:: shell
