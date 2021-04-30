@@ -53,3 +53,43 @@ Design decisions/use cases
 ==========================
 
 We designed hal-cgp for optimization problems in which individual fitness evaluations are computationally expensive. The library is hence not optimized for high performance, but rather puts ease of use and extensibility first. Furthermore we take steps to reduce the number of redundant fitness evaluations, for example by avoiding reevaluating parents at the beginning of each episode and providing a convenient decorator to cache results on disk. If for your use case individual fitness evaluations are fast and the performance of the library itself becomes a relevant factor, you may want to check out https://github.com/darioizzo/dcgp or http://www.cgplibrary.co.uk/files2/About-txt.html.
+
+
+.. image-start
+   
+.. image:: ./cgp-sketch.png
+   :width: 600
+   :alt: CGP Sketch
+	 
+Figure from Jordan, Schmidt, Senn & Petrovici, "Evolving to learn: discovering interpretable plasticity rules for spiking networks", arxiv:2005.14149_.
+
+.. _arxiv:2005.14149: https://arxiv.org/abs/2005.14149
+
+.. image-end
+
+.. long-description-end
+
+.. installation-start
+============
+Installation
+============
+
+You can install the latest relase via pip:
+
+   .. code-block:: shell
+
+      pip install hal-cgp
+
+
+This library depends on some optional packages defined in `extra_requirements.txt`. These are necessary, for example, to compile an individual to a SymPy expression or a PyTorch class. You can install the extra requirements for full functionality of the library via:
+
+   .. code-block:: shell
+
+      pip install hal-cgp[extra]
+
+You can also install individual extra requirements by specifying the package name (without version number) in square brackets, e.g., to install the `torch` dependency:
+
+   .. code-block:: shell
+
+      pip install hal-cgp[torch]
+
