@@ -46,3 +46,18 @@ Controlles and moving hardware
 ======
 Result
 ======
+Independently from the controller you should see how the example's output changes. Look for the following lines
+
+   .. code-block:: shell
+
+           [RRBotSystemPositionOnlyHardware]: Got state 0.0 for joint 0!
+           [RRBotSystemPositionOnlyHardware]: Got state 0.0 for joint 1!
+
+If you echo the /joint_states or /dynamic_joint_states topics you should also get similar values.
+
+   .. code-block:: shell
+
+           ros2 topic echo /joint_states
+           ros2 topic echo /dynamic_joint_states
+           
+You should also see the RRbot moving in rviz2.
