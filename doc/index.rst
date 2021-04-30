@@ -27,6 +27,7 @@ You can also install individual extra requirements by specifying the package nam
 
 
    .. code-block:: shell
+   
       This repository provides templates for the development of ros2_control-enabled robots and a simple simulations to demonstrate and prove ros2_control concepts.
 
 .. image:: https://github.com/ros-controls/ros2_control_demos/workflows/CI/badge.svg?branch=master
