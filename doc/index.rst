@@ -46,7 +46,7 @@ Controlles and moving hardware
 ------
 Result
 ------
-Independently from the controller you should see how the example's output changes. Look for the following lines
+1. Independently from the controller you should see how the example's output changes. Look for the following lines
 
    .. code-block:: shell
    
@@ -54,7 +54,7 @@ Independently from the controller you should see how the example's output change
            [RRBotSystemPositionOnlyHardware]: Got state 0.0 for joint 1!
 
 
-If you echo the /joint_states or /dynamic_joint_states topics you should also get similar values.
+2. If you echo the /joint_states or /dynamic_joint_states topics you should also get similar values.
 
    .. code-block:: shell
 
